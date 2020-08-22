@@ -17,9 +17,9 @@ require 'pry'
 def remove_strawberry(contacts)
       #contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
       contacts.each do |person, contact_details_hash|
-        if person == "Freddie Mercury"
-          contact_details_hash.each do |attribute, data|
-           binding.pry
+  if person == "Freddy Mercury"
+    contact_details_hash.each do |attribute, data|
+      binding.pry
+    end
   end
- end
 end
